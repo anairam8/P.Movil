@@ -19,6 +19,8 @@ Map<String, List<int>> ordenarLista(List<int> listaNumeros){
     listaOrdenada['listaPares']?.sort();
     listaOrdenada['listaInpares']?.sort();
 
+
+    print(listaOrdenada);
     return listaOrdenada;
 }
     
@@ -27,8 +29,8 @@ Map<String, List<int>> ordenarLista(List<int> listaNumeros){
 void main (){
   
   List<int> listaNumeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-  Map<String, List<int>> resultado =ordenarLista(listaNumeros);
-  print(resultado);
+  ordenarLista(listaNumeros);
+
 
 }
 
