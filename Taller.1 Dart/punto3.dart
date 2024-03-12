@@ -7,6 +7,7 @@ la tina” son palíndromos.
 */
 
 bool esPalindroma(String palabra){
+  palabra = palabra.toLowerCase();
    String palabraInvertida = palabra.split('').reversed.join('');
 
 if (palabra == palabraInvertida) {
@@ -20,5 +21,5 @@ if (palabra == palabraInvertida) {
 
 
 void main() {
- esPalindroma("lado");
+ esPalindroma("Oro");
 }
