@@ -4,10 +4,10 @@ print) una breve descripción de la persona.
 */
 
  class Persona{
-    late String nombre;
-    late String apellido;
-    late int edad;
-    late String genero;
+     String nombre;
+     String apellido;
+     int edad;
+     String genero;
 
 
 //Constructor
